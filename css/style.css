@@ -44,7 +44,7 @@ nav {
 
 .nav-list {
     display: flex;
-    margin-left: 25rem;
+    margin-left: 22.5rem;
     letter-spacing: 2px;
 }
 
@@ -135,7 +135,7 @@ header.rolagem .nav-list-div3:hover {
 .title1 {
     position: fixed;
     margin-top: 5rem;
-    margin-left: 41.6rem;
+    margin-left: 39.6rem;
     z-index: 2;
 }
 
@@ -147,7 +147,7 @@ header.rolagem .nav-list-div3:hover {
 .title2 {
     position: fixed;
     margin: 9rem;
-    margin-left: 43rem;
+    margin-left: 41rem;
     font-size: 12px;
 }
 
@@ -158,7 +158,7 @@ header.rolagem .nav-list-div3:hover {
 .bnt1 {
     position: fixed;
     margin-top: 36rem;
-    margin-left: 30rem;
+    margin-left: 27rem;
     padding: 10px 90px 10px 90px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.829);
@@ -173,7 +173,7 @@ header.rolagem .nav-list-div3:hover {
 .bnt2 {
     position: fixed;
     margin-top: 36rem;
-    margin-left: 49.5rem;
+    margin-left: 46.5rem;
     padding: 10px 90px 10px 90px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.701);
@@ -484,4 +484,16 @@ main.rolagem h2 {
 
 .bnt.active {
     opacity: 0;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+    gap: 20px;
+}
+
+.footer-list a {
+    color: rgba(0, 0, 0, 0.397);
 }
