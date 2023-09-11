@@ -134,7 +134,7 @@ header.rolagem .nav-list-div3:hover {
 
 .title1 {
     position: fixed;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: 39.6rem;
     z-index: 2;
 }
@@ -146,7 +146,7 @@ header.rolagem .nav-list-div3:hover {
 
 .title2 {
     position: fixed;
-    margin: 9rem;
+    margin: 10rem;
     margin-left: 41rem;
     font-size: 12px;
 }
@@ -157,7 +157,7 @@ header.rolagem .nav-list-div3:hover {
 
 .bnt1 {
     position: fixed;
-    margin-top: 36rem;
+    margin-top: 37.5rem;
     margin-left: 27rem;
     padding: 10px 90px 10px 90px;
     border-radius: 5px;
@@ -172,7 +172,7 @@ header.rolagem .nav-list-div3:hover {
 
 .bnt2 {
     position: fixed;
-    margin-top: 36rem;
+    margin-top: 37.5rem;
     margin-left: 46.5rem;
     padding: 10px 90px 10px 90px;
     border-radius: 5px;
