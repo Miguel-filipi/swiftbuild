@@ -24,6 +24,14 @@ a {
     color: rgb(255, 255, 255);
 }
 
+nav {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+
 .logo {
     position: absolute;
     margin-top: 5px;
@@ -51,14 +59,6 @@ a {
     }
 }
 
-nav {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: space-around;
-    height: 10vh;
-}
-
 .imagem1 {
     width: 99rem;
     height: 47rem;
@@ -67,50 +67,36 @@ nav {
 .nav-list-sobre {
     display: flex;
     margin-top: 10px;
-    margin-left: 37.5rem;
+    margin-left: 37rem;
     letter-spacing: 2px;
 }
 
 .nav-list-sobre li {
-    margin-left: 34px;
+    margin-left: 15px;
     font-size: 17.5px;
     font-weight: 600;
+    padding: 7px 20px;
+    transition: 0.8s;
 }
 
-.nav-list-sobre-div1:hover {
-    background-color: rgba(0, 0, 0, 0.361);
-    padding: 7px 18px 7px 1px;
+.nav-list-sobre li:hover {
+    background-color: rgba(0, 0, 0, 0.416);
     border-radius: 5px;
-    transition: 0.8s;
-    margin-top: -7px;
-}
-
-.nav-list-sobre-div2:hover {
-    background-color: rgba(0, 0, 0, 0.361);
-    padding: 7px 18px 7px 1px;
-    border-radius: 5px;
-    margin-left: 10px;
-    transition: 0.8s;
-    margin-top: -7px;
-}
-
-.nav-list-sobre-div3:hover {
-    background-color: rgba(0, 0, 0, 0.361);
-    padding: 7px 18px 7px 0px;
-    border-radius: 5px;
-    margin-top: -7px;
-    margin-left: 10px;
-    transition: 0.8s;
 }
 
 .icon-sobre {
-    margin-left: 26rem;
+    margin-left: 24rem;
     white-space: nowrap;
 }
 
 .icon-sobre i {
     margin-left: 15px;
     font-size: 20px;
+}
+
+.icon-sobre i:hover {
+    opacity: 0.3;
+    transition: 0.8s;
 }
 
 .title {
@@ -159,4 +145,106 @@ nav {
 .title4 h2 {
     color: rgba(255, 255, 255, 0.932);
     font-weight: 500;
+}
+
+.conteiner-black1 {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 47rem;
+    margin-left: 47rem;
+    width: 49rem;
+    height: 46rem;
+}
+
+.conteiner-black1 h1,
+p {
+    color: white;
+}
+
+.conteiner-black1 h1 {
+    margin-left: 5rem;
+    margin-top: 10rem;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.conteiner-black1 p {
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 4.98rem;
+    margin-top: 1.6rem;
+    line-height: 1.4;
+}
+
+.p {
+    margin-left: 10rem;
+}
+
+.title5 {
+    position: absolute;
+    margin-top: 39rem;
+    margin-left: 34rem;
+    font-size: 11px;
+}
+
+.title5 h1,
+p {
+    color: white;
+}
+
+.title5 h1 {
+    margin-left: 10px;
+}
+
+.title5 p {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.title6 {
+    margin-left: 10rem;
+    margin-top: -52.5px;
+}
+
+.title6 h1 {
+    margin-left: 1.5rem;
+}
+
+.title7 {
+    margin-left: 20rem;
+    margin-top: -51px;
+}
+
+.img-sobre1 {
+    position: absolute;
+    margin-top: 47rem;
+}
+
+.img-sobre1 img {
+    width: 48rem;
+    height: 46rem;
+}
+
+.title8 {
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.title8 p {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 14px 100px 14px 100px;
+    margin-left: -1rem;
+    margin-top: 0.8px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.title8 button {
+    cursor: pointer;
+    padding: 1px 1px 1px 17px;
+    border-radius: 5px;
 }

@@ -1,0 +1,211 @@
+/* import fonts google */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700;800;900&display=swap");
+
+* {
+    font-family: "inter";
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    margin-left: -70rem;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inconsolata";
+    white-space: nowrap;
+    width: 13ch;
+    border-right: 4px solid;
+    overflow: hidden;
+    animation: typing 3s steps(15), blinking 1s infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.nav-list-contato {
+    display: flex;
+    margin-left: 37.5rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.nav-list-contato li {
+    margin-left: 15px;
+    font-size: 17.5px;
+    font-weight: 600;
+    color: white;
+    padding: 7px 20px;
+    transition: 0.8s;
+}
+
+.nav-list-contato li:hover {
+    background-color: rgba(0, 0, 0, 0.361);
+    border-radius: 5px;
+}
+
+.icon-navbar {
+    margin-left: 24rem;
+    white-space: nowrap;
+}
+
+.icon-navbar i {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.icon-navbar i:hover {
+    opacity: 0.3;
+    transition: 0.8s;
+}
+
+.contato-img {
+    width: 100%;
+    height: 46.39rem;
+}
+
+.title {
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: 15rem;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 44px;
+}
+
+.contato {
+    position: absolute;
+    width: 27rem;
+    height: 400px;
+    /* background-color: #ffffff16; */
+    background-color: #00000010;
+    border: 2px solid #ffffff15;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    margin-left: 52rem;
+    margin-top: 13rem;
+    backdrop-filter: blur(5px);
+}
+
+input {
+    width: 23rem;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #ffffff30;
+    margin: 10px;
+}
+
+input:hover {
+    transition: 0.5s;
+    border: 2px solid #000000;
+}
+
+.contato-title {
+    position: absolute;
+    margin-top: -40px;
+}
+
+.contato-title h1 {
+    font-size: 19px;
+    color: #ffffff;
+    white-space: nowrap;
+    width: 19.5ch;
+    border-right: 3.5px solid;
+    overflow: hidden;
+    animation: typing 5s;
+}
+
+label {
+    color: #fff;
+    margin-left: -19.3rem;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.icon-contato {
+    position: absolute;
+    margin-top: 27rem;
+    margin-left: 18rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #ffffff15;
+    backdrop-filter: blur(5px);
+}
+
+.icon-contato i {
+    font-size: 22px;
+}
+
+.icon-contato p {
+    position: absolute;
+    margin-left: 16rem;
+    margin-top: -1.5rem;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: 400;
+}
+
+#email {
+    position: absolute;
+    margin-left: 22.8rem;
+    margin-top: 28.5rem;
+    font-weight: 650;
+}
+
+.bnt-sobre2 {
+    position: absolute;
+    margin-top: 34rem;
+    margin-left: 58.5rem;
+    background-color: #0000006c;
+    padding: 10px 90px 10px 90px;
+    border-radius: 11px;
+    border: 3px solid #00000068;
+}
+
+.bnt-sobre2 a {
+    font-weight: 700;
+}
